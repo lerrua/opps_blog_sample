@@ -61,7 +61,7 @@ TEMPLATE_DIRS = (os.path.join(PROJECT_PATH, 'templates'),)
 TEMPLATE_DIRS_WEB = TEMPLATE_DIRS
 TEMPLATE_DIRS_MOBILE = (os.path.join(PROJECT_PATH, 'templates', 'mobile'),)
 
-INSTALLED_APPS = OPPS_CORE_APPS
+INSTALLED_APPS = OPPS_CORE_APPS + ['django_extensions']
 
 djcelery.setup_loader()
 BROKER_URL = 'redis://localhost:6379/0'

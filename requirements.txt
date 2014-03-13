@@ -1,1 +1,2 @@
 opps>=0.2
+django_extensions==1.3.3
