@@ -1,10 +1,6 @@
-#!/usr/bin/env python
 # -*- coding: utf-8 -*-
 import os
 import djcelery
-
-from opps import OPPS_CORE_APPS
-
 
 DEBUG = True
 TEMPLATE_DEBUG = DEBUG
@@ -61,7 +57,46 @@ TEMPLATE_DIRS = (os.path.join(PROJECT_PATH, 'templates'),)
 TEMPLATE_DIRS_WEB = TEMPLATE_DIRS
 TEMPLATE_DIRS_MOBILE = (os.path.join(PROJECT_PATH, 'templates', 'mobile'),)
 
-INSTALLED_APPS = OPPS_CORE_APPS + ['django_extensions']
+INSTALLED_APPS = [
+    # Django core
+    'django.contrib.auth',
+    'django.contrib.contenttypes',
+    'django.contrib.sessions',
+    'django.contrib.sites',
+    'django.contrib.messages',
+    'django.contrib.staticfiles',
+    'django.contrib.redirects',
+
+    # Admin
+    'opps.contrib.admin',
+    'grappelli.dashboard',
+    'grappelli',
+    'django.contrib.admin',
+
+    # Opps core
+    'opps.core',
+    'opps.core.tags',
+    'opps.containers',
+    'opps.boxes',
+    'opps.channels',
+    'opps.containers',
+    'opps.articles',
+    'opps.archives',
+    'opps.images',
+    'opps.sitemaps',
+    'opps.flatpages',
+    'opps.archives',
+    'opps.fields',
+    'opps.api',
+
+    # Dependence
+    'south',
+    'appconf',
+    'haystack',
+    'mptt',
+    'googl',
+    'djcelery',
+]
 
 djcelery.setup_loader()
 BROKER_URL = 'redis://localhost:6379/0'

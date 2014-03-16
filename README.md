@@ -1,15 +1,8 @@
 opps-blog-sample
 =====================
 
-Opps 0.2.3-dev on Django 1.6.2
+Opps 0.2.2 on Django 1.6.2
 
-
-## Install Opps
-
-    git clone git@github.com:opps/opps.git
-    cd opps
-    python setup.py develop
-    
 ## Running the opps blog sample
     
     git clone git@github.com:lerrua/opps_blog_sample.git
@@ -23,9 +16,9 @@ Opps 0.2.3-dev on Django 1.6.2
 * Authentication.
 * Publish texts feature. 
 * Tags and categories.
-* Content
- - Title
- - Author
- - Date/time published
- - Tags
-* Search (by title/author)
+* Content:
+ - Title.
+ - Author.
+ - Date/time published.
+ - Tags.
+* Search (by title/author).
