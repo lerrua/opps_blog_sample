@@ -11,6 +11,9 @@ Opps 0.2.2 on Django 1.6.2
     python manage.py collectstatic --noinput
     python manage.py runserver
 
+### Admin access
+    user: root
+    password: 1234
 
 ### Roadmap
 * Authentication.

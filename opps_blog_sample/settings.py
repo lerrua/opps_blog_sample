@@ -87,7 +87,6 @@ INSTALLED_APPS = [
     'opps.flatpages',
     'opps.archives',
     'opps.fields',
-    'opps.api',
 
     # Dependence
     'south',
