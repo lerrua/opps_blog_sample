@@ -1,7 +1,7 @@
 opps-blog-sample
 =====================
 
-Opps 0.2.2 on Django 1.6.2
+Opps 0.2.3 on Django 1.6.2
 
 ## Running the opps blog sample
     
