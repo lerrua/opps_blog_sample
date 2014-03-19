@@ -8,7 +8,6 @@ Opps 0.2.3 on Django 1.6.2
     git clone git@github.com:lerrua/opps_blog_sample.git
     cd opps_blog_sample
     pip install -r requirements.txt
-    python manage.py collectstatic --noinput
     python manage.py runserver
 
 ### Admin access
