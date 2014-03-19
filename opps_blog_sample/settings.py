@@ -98,7 +98,7 @@ MIDDLEWARE_CLASSES = (
     'opps.contrib.mobile.middleware.MobileDetectionMiddleware',
 )
 
-TEMPLATE_DIRS = (os.path.join(PROJECT_PATH, 'templates'),)
+TEMPLATE_DIRS = (os.path.join(PROJECT_PATH, 'opps_blog_sample/templates'),)
 TEMPLATE_DIRS_WEB = TEMPLATE_DIRS
 TEMPLATE_DIRS_MOBILE = (os.path.join(PROJECT_PATH, 'templates', 'mobile'),)
 
